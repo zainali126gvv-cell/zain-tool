@@ -2,15 +2,8 @@
 clear
 echo -e "\e[1;32m🛡️ ZAIN-TOOL V1.0 🛡️\e[0m"
 echo "---------------------------------------"
-read -p "🔐 Enter Password: " pass
+echo -e "\e[1;34m🚀 Opening Tool Directly...\e[0m"
+sleep 2
 
-if [ "$pass" == "Zain512" ]; then
-    echo -e "\e[1;32m✅ Access Granted! Welcome Zain.\e[0m"
-    sleep 2
-    echo "Tool is starting..."
-    # Iske niche aap apna main kaam likh sakte hain
-    python3 main.py
-else
-    echo -e "\e[1;31m❌ Wrong Password! Access Denied.\e[0m"
-    exit 1
-fi
+# Yahan aapka asli tool run hoga
+python3 main.py
