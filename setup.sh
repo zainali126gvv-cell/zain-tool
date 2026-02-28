@@ -5,5 +5,9 @@ echo "---------------------------------------"
 echo -e "\e[1;34m🚀 Opening Tool Directly...\e[0m"
 sleep 2
 
-# Yahan aapka asli tool run hoga
-python3 main.py
+# Yahan aapki main file ka naam likhein
+if [ -f "main.py" ]; then
+    python3 main.py
+else
+    echo "Welcome to Zain-Tool!"
+fi
